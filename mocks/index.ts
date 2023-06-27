@@ -1,4 +1,4 @@
-export const getGlobalData = async (hostUrl) => {
+export const getGlobalData = async (hostUrl: string) => {
   return {
     user: {
       id: '1',
@@ -14,7 +14,7 @@ export const getGlobalData = async (hostUrl) => {
     menus: [],
     appName: 'semic-admin',
     elemAclLimits: [],
-    defaultPage: `${hostUrl}/pages/main/setting/users?env=me`,
-    routeBaseName: '/pages',
+    defaultPage: `${hostUrl}/pages/semic/admin-ui/main/setting/users?env=me`,
+    routeBaseName: '/pages/semic/admin-ui',
   };
 };

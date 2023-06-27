@@ -11,8 +11,13 @@ export const Dashboard = () => {
 
   return (
     <div>
-      THis is example template <span className="text-red-800">${count}</span>
-      <Button onClick={countter}></Button>
+      <p> This is example template</p>
+      <p>
+        <span className="text-red-800">${count}</span>
+      </p>
+      <p>
+        <Button onClick={countter}>Counter</Button>
+      </p>
     </div>
   );
 };
