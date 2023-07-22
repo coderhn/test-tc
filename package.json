@@ -20,7 +20,7 @@
     "test-unit-watch": "vitest watch --ui",
     "typecheck": "tsc --project ./tsconfig.json --noEmit",
     "lint-staged-files": "lint-staged --allow-empty",
-    "build": "npx flat build dynamic --publish-now --pack-now --timestamp=dynamic",
+    "build": "npx flat build dynamic --publish-now --pack-now --timestamp=dynamic --clean-node-modules",
     "parallel": "npx flat mount parallel --prefix abc"
   },
   "config": {
