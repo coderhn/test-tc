@@ -2579,22 +2579,22 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.52.0.tgz#78fe5f117840f69dc4a353adf9b9cd926353378c"
   integrity sha512-mjZVbpaeMZludF2fsWLD0Z9gCref1Tk4i9+wddjRvpUNqqcndPkBD09N/Mapey0b3jaXbLm2kICwFv2E64QinA==
 
-"@flatjs/cli-plugin-mount@2.0.0-next.6":
-  version "2.0.0-next.6"
-  resolved "https://registry.yarnpkg.com/@flatjs/cli-plugin-mount/-/cli-plugin-mount-2.0.0-next.6.tgz#c135e92d144eedb023310fccccc30312c7dd1145"
-  integrity sha512-llS56PbIevYoOv4Q8/L+Jim8hn8dtsMDYBdJtujORY6oGgsHJxMebgcdSpg8mAoJmKYlNOlIZpNu07/e48yG1Q==
+"@flatjs/cli-plugin-mount@2.0.0-next.7":
+  version "2.0.0-next.7"
+  resolved "https://registry.yarnpkg.com/@flatjs/cli-plugin-mount/-/cli-plugin-mount-2.0.0-next.7.tgz#02a50d90c76df245b362727f07ac8540712ed72c"
+  integrity sha512-yHuryNtbCKiB4wXNHCLDfEo1co4JnP7sYIdh8qHjCu1MNCo+PCK4fojbgUe/3cMLUs8yFGY0whRoDzSiX1J/QA==
   dependencies:
     "@armit/commander" "^0.0.59"
     "@armit/git" "^0.0.41"
-    "@flatjs/cli" "2.0.0-next.6"
+    "@flatjs/cli" "2.0.0-next.7"
     "@flatjs/common" "2.0.0-next.3"
-    "@flatjs/evolve" "2.0.0-next.4"
+    "@flatjs/evolve" "2.0.0-next.5"
     type-fest "^4.5.0"
 
-"@flatjs/cli@2.0.0-next.6":
-  version "2.0.0-next.6"
-  resolved "https://registry.yarnpkg.com/@flatjs/cli/-/cli-2.0.0-next.6.tgz#046297e70faa9c863cf243474b80276e0510da66"
-  integrity sha512-KlbU2mMo6fLuaethF6Lzn1sWZJy6pFBttF29OZ4FGKe6is2bTbLrD/+2i0fyxJUEh3FPDmVM8aRV7VQLRmaepQ==
+"@flatjs/cli@2.0.0-next.7":
+  version "2.0.0-next.7"
+  resolved "https://registry.yarnpkg.com/@flatjs/cli/-/cli-2.0.0-next.7.tgz#e06ddbecd0d136517e54f745f2f2b51590ff0773"
+  integrity sha512-m6BmqRJ+Od8uptdi4kn1m6EFQAb/aRMNhWezEODX55sEPFf5O+rK1itFDPIfMUdXwjtmq00+zFoFWKY5PXqneA==
   dependencies:
     "@armit/commander" "^0.0.59"
     "@armit/config-loader" "^0.0.57"
@@ -2603,7 +2603,7 @@
     "@armit/package" "^0.0.50"
     "@armit/terminal" "^0.0.32"
     "@flatjs/common" "2.0.0-next.3"
-    "@flatjs/evolve" "2.0.0-next.4"
+    "@flatjs/evolve" "2.0.0-next.5"
     "@flatjs/forge" "2.0.0-next.3"
     "@flatjs/mock" "2.0.0-next.3"
     "@flatjs/sculpt" "2.0.0-next.5"
@@ -2646,10 +2646,10 @@
     "@vue/babel-plugin-jsx" "1.1.5"
     fast-async "7.0.6"
 
-"@flatjs/evolve@2.0.0-next.4":
-  version "2.0.0-next.4"
-  resolved "https://registry.yarnpkg.com/@flatjs/evolve/-/evolve-2.0.0-next.4.tgz#8314d4973de095aa3ed7cbe6e24f659cf58d7492"
-  integrity sha512-patSb94SMgcpYv/btzAoDFL2iZaOXHrotvSXsC/chMO+1gJY1CtQoaYnTIW6BJrsN/1fASLrEgQW6zXnzfye9A==
+"@flatjs/evolve@2.0.0-next.5":
+  version "2.0.0-next.5"
+  resolved "https://registry.yarnpkg.com/@flatjs/evolve/-/evolve-2.0.0-next.5.tgz#44d0d2f0a49a0c9515f3386f868666341f9918e5"
+  integrity sha512-yKagkKC9O/RLBid1LPK+IbjuBlrhDRo9wUEmkvGwh3/1qa490dCSfBaNQLy+YS6MIyQA9/vc9VNkuSzKJDun6A==
   dependencies:
     "@armit/config-loader" "^0.0.57"
     "@armit/file-utility" "^0.0.33"
