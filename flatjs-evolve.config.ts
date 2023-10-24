@@ -46,7 +46,7 @@ const getEntryMap = (
 export default defineConfig((env) => ({
   projectVirtualPath: `biz/template`,
   devServer: {
-    liveReload: true,
+    // liveReload: true,
     mockOptions: {
       port: 8000,
       staticMap: {
