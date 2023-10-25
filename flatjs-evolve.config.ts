@@ -61,7 +61,10 @@ export default defineConfig((env) => ({
     pixelOptions: false,
     runTsChecker: false,
     postcssOptions: {
-      plugins: [['tailwindcss', {}], 'postcss-preset-env'],
+      plugins: [
+        [env.resolve(import.meta.url, 'tailwindcss'), {}],
+        env.resolve(import.meta.url, 'postcss-preset-env'),
+      ],
     },
     modularImports: [
       {
