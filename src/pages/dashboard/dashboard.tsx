@@ -25,6 +25,7 @@ export const Dashboard = () => {
   });
 
   const [loading, setLoading] = useState(false);
+
   let [locale, setLocale] = useState<'en' | 'de'>('en');
 
   async function loadingMessages() {
