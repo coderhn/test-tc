@@ -28,6 +28,8 @@ node_modules
 /.next/
 /out/
 /build
+/packages
+/public
 
 # Cache
 **/tsconfig.tsbuildinfo
