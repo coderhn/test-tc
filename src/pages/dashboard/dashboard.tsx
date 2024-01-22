@@ -1,13 +1,13 @@
 import './dashboard.less';
 import { hooks } from '@wove/react';
 import { Select } from 'antd';
+import Link from 'antd/es/typography/Link';
 import { useEffect, useState } from 'react';
-import { IntlError, IntlProvider } from 'use-intl';
-import { Translation } from './translation';
+import { type IntlError, IntlProvider } from 'use-intl';
 import { Counter } from './counter';
 import { Datetime } from './date-time';
 import { RawText } from './raw-text';
-import Link from 'antd/es/typography/Link';
+import { Translation } from './translation';
 
 export const Dashboard = () => {
   const [messages, setMessages] = useState({});
@@ -26,7 +26,7 @@ export const Dashboard = () => {
 
   const [loading, setLoading] = useState(false);
 
-  let [locale, setLocale] = useState<'en' | 'de'>('en');
+  const [locale, setLocale] = useState<'en' | 'de'>('en');
 
   async function loadingMessages() {
     setLoading(true);
@@ -37,6 +37,7 @@ export const Dashboard = () => {
 
   useEffect(() => {
     void loadingMessages();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [locale]);
 
   const handleLocaleChange = hooks.useCallbackRef(async (locale) => {
@@ -74,7 +75,7 @@ export const Dashboard = () => {
       getMessageFallback={handleMessageFallback}
     >
       <div>
-        <p className="text-red-700 font-semibold">
+        <p className="font-semibold text-red-700">
           This is example template with i18n &nbsp;
           <Link href="https://next-intl-docs.vercel.app">
             https://next-intl-docs.vercel.app

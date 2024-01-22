@@ -1,4 +1,4 @@
-import { useFormatter, useNow, useTimeZone, useTranslations } from 'use-intl';
+import { useFormatter, useNow, useTimeZone } from 'use-intl';
 
 export const Datetime = () => {
   const format = useFormatter();

@@ -3859,9 +3859,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rc-component/tour@npm:~1.12.1":
-  version: 1.12.2
-  resolution: "@rc-component/tour@npm:1.12.2"
+"@rc-component/tour@npm:~1.12.2":
+  version: 1.12.3
+  resolution: "@rc-component/tour@npm:1.12.3"
   dependencies:
     "@babel/runtime": "npm:^7.18.0"
     "@rc-component/portal": "npm:^1.0.0-9"
@@ -3871,7 +3871,7 @@ __metadata:
   peerDependencies:
     react: ">=16.9.0"
     react-dom: ">=16.9.0"
-  checksum: e5671f6a62c76fdbd0e7ade684c7eca1194749b9d195e4befb09322c6dda78e42274be3d07aee27abba732692015a167e4fb4c851bdfdfc0645495fafc5a2598
+  checksum: 650f7e5c3567e1910ec6a6c312632937aa041ac0008568290385be07384469ddc482aeb517d88f59d66377579adbab25585364a4c21d416a10a1c2c80e3436a7
   languageName: node
   linkType: hard
 
@@ -5516,9 +5516,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"antd@npm:^5.13.1":
-  version: 5.13.1
-  resolution: "antd@npm:5.13.1"
+"antd@npm:^5.13.2":
+  version: 5.13.2
+  resolution: "antd@npm:5.13.2"
   dependencies:
     "@ant-design/colors": "npm:^7.0.2"
     "@ant-design/cssinjs": "npm:^1.18.2"
@@ -5527,7 +5527,7 @@ __metadata:
     "@ctrl/tinycolor": "npm:^3.6.1"
     "@rc-component/color-picker": "npm:~1.5.1"
     "@rc-component/mutate-observer": "npm:^1.1.0"
-    "@rc-component/tour": "npm:~1.12.1"
+    "@rc-component/tour": "npm:~1.12.2"
     "@rc-component/trigger": "npm:^1.18.2"
     classnames: "npm:^2.5.1"
     copy-to-clipboard: "npm:^3.3.3"
@@ -5570,7 +5570,7 @@ __metadata:
   peerDependencies:
     react: ">=16.9.0"
     react-dom: ">=16.9.0"
-  checksum: 87721214c39641fe20b1ec295bc08f48ea54d397ace5a7daf4456421a4ecaa4adb2040a04182c2f03c13136674a808e5e2847def228c1cdc8cc3e68ed213b7d6
+  checksum: a6b6a7a894a405aeb15a885207827841160533f7486b1c5ac3301d18ed6d69156f8c05cccecc2eb7618c2094cbda17cec847769b9f0da636c99ffd132ee0c9a8
   languageName: node
   linkType: hard
 
@@ -6071,11 +6071,12 @@ __metadata:
     "@vitest/coverage-istanbul": "npm:1.2.1"
     "@vitest/ui": "npm:1.2.1"
     "@wove/react": "npm:^1.2.23"
-    antd: "npm:^5.13.1"
+    antd: "npm:^5.13.2"
     commitizen: "npm:4.3.0"
     cross-env: "npm:7.0.3"
     cz-conventional-changelog: "npm:3.3.0"
     eslint: "npm:8.56.0"
+    eslint-plugin-tailwindcss: "npm:3.14.0"
     husky: "npm:8.0.3"
     is-ci: "npm:3.0.1"
     lint-staged: "npm:15.2.0"
@@ -6086,14 +6087,14 @@ __metadata:
     prettier: "npm:3.2.4"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
-    react-router-dom: "npm:^6.21.2"
+    react-router-dom: "npm:^6.21.3"
     rimraf: "npm:5.0.5"
     shell-quote: "npm:1.8.1"
     tailwind-merge: "npm:^2.2.0"
     tailwindcss: "npm:3.4.1"
     ts-node: "npm:10.9.2"
     typescript: "npm:5.3.3"
-    use-intl: "npm:3.4.4"
+    use-intl: "npm:3.4.5"
     vite-tsconfig-paths: "npm:4.3.1"
     vitest: "npm:1.2.1"
   languageName: unknown
@@ -8713,6 +8714,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-plugin-tailwindcss@npm:3.14.0":
+  version: 3.14.0
+  resolution: "eslint-plugin-tailwindcss@npm:3.14.0"
+  dependencies:
+    fast-glob: "npm:^3.2.5"
+    postcss: "npm:^8.4.4"
+  peerDependencies:
+    tailwindcss: ^3.4.0
+  checksum: 387390ad36e63048a9da9fdc4e4ffdf3d08cf5e1dc5f0a2a13603b40c107124db128b6851dc5c5645c37af0af89c7888bd47990857bc2d9ba831189a515348bc
+  languageName: node
+  linkType: hard
+
 "eslint-plugin-testing-library@npm:^6.2.0":
   version: 6.2.0
   resolution: "eslint-plugin-testing-library@npm:6.2.0"
@@ -9078,7 +9091,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:3.3.2, fast-glob@npm:^3.2.9, fast-glob@npm:^3.3.0, fast-glob@npm:^3.3.1, fast-glob@npm:^3.3.2":
+"fast-glob@npm:3.3.2, fast-glob@npm:^3.2.5, fast-glob@npm:^3.2.9, fast-glob@npm:^3.3.0, fast-glob@npm:^3.3.1, fast-glob@npm:^3.3.2":
   version: 3.3.2
   resolution: "fast-glob@npm:3.3.2"
   dependencies:
@@ -14890,7 +14903,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.4.33, postcss@npm:^8.4.21, postcss@npm:^8.4.23, postcss@npm:^8.4.32":
+"postcss@npm:8.4.33, postcss@npm:^8.4.21, postcss@npm:^8.4.23, postcss@npm:^8.4.32, postcss@npm:^8.4.4":
   version: 8.4.33
   resolution: "postcss@npm:8.4.33"
   dependencies:
@@ -15790,27 +15803,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router-dom@npm:^6.21.2":
-  version: 6.21.2
-  resolution: "react-router-dom@npm:6.21.2"
+"react-router-dom@npm:^6.21.3":
+  version: 6.21.3
+  resolution: "react-router-dom@npm:6.21.3"
   dependencies:
     "@remix-run/router": "npm:1.14.2"
-    react-router: "npm:6.21.2"
+    react-router: "npm:6.21.3"
   peerDependencies:
     react: ">=16.8"
     react-dom: ">=16.8"
-  checksum: 24d1470e68f11369776c623b8873c8cf0af476d102317cb3aa6b13b48c86908f10a6e51209ce24dccf40e429538d4e23fda796c190f2ff98f894cb476d51f44d
+  checksum: 6e23e35d02e5c83847c8e47d7912d1f6c2c42a35f2317802031bdd993a8205468138a045ff34f67fe807fe9f7dc9d0995ee05bab25aedc0bf978e620ac132815
   languageName: node
   linkType: hard
 
-"react-router@npm:6.21.2":
-  version: 6.21.2
-  resolution: "react-router@npm:6.21.2"
+"react-router@npm:6.21.3":
+  version: 6.21.3
+  resolution: "react-router@npm:6.21.3"
   dependencies:
     "@remix-run/router": "npm:1.14.2"
   peerDependencies:
     react: ">=16.8"
-  checksum: 08701bfe9e7b860442dd0f3c6e36d3ea6106d86db5ec9da930fd56d5782a13b82612826de7dd31bb38832f3fa76437d7a0ca36e63a76256f62d5b738f529a48c
+  checksum: 3d5107cfdb440519d84e6ad6d95454e3bf41ec97677b95f7b2a7f281f8ddf191b765cf1b599ead951f3cd33ed4429f140590d74a01cfdf835dc2f812023a978a
   languageName: node
   linkType: hard
 
@@ -18407,15 +18420,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"use-intl@npm:3.4.4":
-  version: 3.4.4
-  resolution: "use-intl@npm:3.4.4"
+"use-intl@npm:3.4.5":
+  version: 3.4.5
+  resolution: "use-intl@npm:3.4.5"
   dependencies:
     "@formatjs/ecma402-abstract": "npm:^1.11.4"
     intl-messageformat: "npm:^9.3.18"
   peerDependencies:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
-  checksum: 0299699c6000b4e58ff9ec1ae0546d08824fc94517d6de4f2abb7a037b9018cad03494576b388dacc038566b4a0da1eb521dc30725a1efbb23218e51c005227c
+  checksum: e2358b4b0381d9725755a3aa60c0dbef5c8e5fd7ab809059a2d138599940b33bf2ba73a797faabe8d53e3ca6dbae982a61830d7bdc29e949ee7fdacb4ec7e73d
   languageName: node
   linkType: hard
 

@@ -1,7 +1,7 @@
 import { hooks } from '@wove/react';
 import { Button } from 'antd';
 import { useState } from 'react';
-import { useFormatter, useNow, useTimeZone, useTranslations } from 'use-intl';
+import { useTranslations } from 'use-intl';
 
 export const Counter = () => {
   const [count, setCount] = useState(0);
