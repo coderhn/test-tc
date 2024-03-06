@@ -7,6 +7,7 @@ import { Counter } from './counter';
 import { Datetime } from './date-time';
 import { RawText } from './raw-text';
 import { Translation } from './translation';
+import './style.less';
 
 export const Dashboard = () => {
   const [locale, setLocale] = useState<string>(
